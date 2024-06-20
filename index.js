@@ -19,6 +19,10 @@ app.get("/post", (req, res) => {
     res.render("post.ejs");
 });
 
+app.get("/about", (req, res) => {
+    res.render("about.ejs");
+});
+
 app.get("/compose", (req, res) => {
     res.render("compose.ejs");
 });
